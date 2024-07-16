@@ -1,0 +1,53 @@
+body {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.titlebar {
+    background-color: #181818;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    padding-top: 10px;
+}
+
+.titlebar div a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 1.5cm; /* Adjust as needed for spacing between items */
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
+.section1{
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+    background-color: lightgrey;
+    gap: 10px;
+    padding: 10px;
+}
+
+col1{
+    width: 33.3%;
+    background-color: white;
+}
+
+.newsection{
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+    gap:1cm;
+}
+
+.newcol{
+    background-color: white;
+    padding-left: 20px;
+}
